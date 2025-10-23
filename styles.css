@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #0056b3;
+}
+
+#productos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.producto-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+.producto-card h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+.producto-card p {
+    margin: 5px 0;
+}
+
+.producto-card .categoria {
+    font-style: italic;
+    color: #666;
+}
+
+.producto-card .impuesto {
+    font-weight: bold;
+    color: #d9534f;
+}
